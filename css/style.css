@@ -1,0 +1,109 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  text-align: center;
+  color: rgb(0, 204, 255);
+  font-family: 'Dancing Script', 'cursive';
+  font-size:50px;
+}
+h2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Dancing Script', 'cursive';
+  font-size:30px;
+}
+body {
+  background-color: #fff;
+}
+.avatars {
+  display: flex;
+  justify-content: space-between;
+  margin:5% 2% 5% 2%;
+}
+.avatar_item {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  position: relative; 
+}
+.avatar_body img {
+  width: 300px;
+  height: 300px;
+}
+.avatar_look{
+  position: absolute;
+  bottom: -5px;
+}
+.avatar_look img {
+  width: 300px;
+}
+.avatar_eyes {
+  position: absolute;
+  top: 60px;
+  right:70px;
+}
+.avatar_beard {
+  position: absolute;
+  top: 100px;
+  right:60px;
+}
+.avatar_mouth {
+  position: absolute;
+  top: 130px;
+  right:110px;
+}
+.avatar_nose {
+  position: absolute;
+  top: 85px;
+  right:135px;
+}
+.avatar_nose img {
+  width: 25px;
+}
+.avatar_eyes_angry {
+  position: absolute;
+  top: 79px;
+  right:100px;
+}
+.avatar_beard_large {
+  position: absolute;
+  top: 107px;
+  right:60px;
+}
+.avatar_beard_short {
+  position: absolute;
+  top: 106px;
+  right:60px;
+}
+.avatar_nose_pointy {
+  position: absolute;
+  top: 90px;
+  right:135px;
+}
+.avatar_nose_pointy img {
+  width: 25px;
+}
+.avatar_hat {
+  position: absolute;
+  top: -60px;
+  right:-18px;
+}
+.avatar_hat img  {
+  width: 337px;
+  height: 340px;
+}
+.avatar_cap {
+  position: absolute;
+  top: -71px;
+  right:-30px;
+}
+.avatar_hair {
+  position: absolute;
+  top: -75px;
+  right:-30px;
+}
